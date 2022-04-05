@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenericKafkaProducer.Exceptions\GenericKafkaProducer.Exceptions.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Interfaces\GenericKafkaProducer.Interfaces.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Models\GenericKafkaProducer.Models.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Utils\GenericKafkaProducer.Utils.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Validation\GenericKafkaProducer.Validation.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GenericKafkaProducer.Utils\GenericKafkaProducer.Utils.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Infrastructure\GenericKafkaProducer.Infrastructure.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Interfaces\GenericKafkaProducer.Interfaces.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Models\GenericKafkaProducer.Models.csproj" />
+    <ProjectReference Include="..\GenericKafkaProducer.Validation\GenericKafkaProducer.Validation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>

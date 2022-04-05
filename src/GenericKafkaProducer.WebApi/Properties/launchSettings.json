@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GenericKafkaProducer.WebApi": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "E2E"
+      }
+    }
+  }
+}
